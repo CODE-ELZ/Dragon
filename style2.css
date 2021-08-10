@@ -103,22 +103,27 @@ p {
 .bDownload {
     margin: 5% 3% 5% 0;
 }
-.b{
+
+.b {
     text-decoration: none;
     color: #ee4545c7;
-  }
-.bDownload:hover .b{
+}
+
+.bDownload:hover .b {
     text-decoration: none;
     color: #fff;
-  }
-.a{
+}
+
+.a {
     text-decoration: none;
     color: #fff;
-  }
-.bDownload:hover .a{
+}
+
+.bDownload:hover .a {
     text-decoration: none;
     color: #fff;
-  }
+}
+
 .rotate {
     width: 100%;
 
@@ -142,20 +147,22 @@ p {
         position: static;
         padding-left: 0;
     }
+
     .press-logo {
         width: 150px;
         border-radius: 10%;
         height: 100px;
         margin: 0 10px 10px;
         background-color: #fffbc1;
-        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     }
-    .press-logo:hover{
-        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) inset;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) inset;
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) inset;
+
+    .press-logo:hover {
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
     }
 }
 
@@ -194,15 +201,17 @@ p {
     height: 200px;
     margin: 0 20px 10px;
     background-color: #fffbc1;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
-.press-logo:hover{
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) inset;
--webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) inset;
--moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) inset;
+
+.press-logo:hover {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
 }
+
 @media (max-width: 1028px) {
     .press-logo {
         width: 150px;
@@ -210,19 +219,35 @@ p {
         height: 100px;
         margin: 0 10px 10px;
         background-color: #fffbc1;
-        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     }
-    .press-logo:hover{
-        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) inset;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) inset;
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) inset;
+
+    .press-logo:hover {
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
     }
-    .cent{
+
+    .cent {
         display: none;
     }
+
+    .f-box {
+        text-align: center;
+        padding: 5%;
+        margin-left: 30px;
+    }
+
+    .icon {
+        color: #32373f;
+        margin-bottom: 1rem;
+        opacity: 1;
+        width: 120%;
+    }
 }
+
 @media (max-width: 750px) {
     .press-logo {
         width: 150px;
@@ -230,17 +255,26 @@ p {
         height: 100px;
         margin: 0 20px 20px;
         background-color: #fffbc1;
-        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     }
-    .press-logo:hover{
-        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) inset;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) inset;
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) inset;
+
+    .press-logo:hover {
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
     }
-    .cent{
+
+    .cent {
         display: none;
+    }
+
+    .icon {
+        color: #32373f;
+        margin-bottom: 1rem;
+        opacity: 1;
+        width: 100%;
     }
 }
 
@@ -302,27 +336,29 @@ p {
     height: 400px;
     padding: 10%;
 }
-.bd{
+
+.bd {
     text-align: justify;
 }
-@media (max-width: 1028px){
+
+@media (max-width: 1028px) {
     .bshadow p {
         color: #fffbc1;
         font-weight: 700;
     }
-    
+
     .bshadow p {
         color: #ff0000c7;
         font-weight: 700;
     }
-    
+
     .bshadow {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
         background-color: #fffbc1;
         opacity: 1;
         align-items: center;
     }
-    
+
     .bshadow .dom {
         background-color: #ff0000c7;
         color: #fffbc1;
@@ -345,6 +381,7 @@ p {
     margin: 0 5px 10px;
     color: #fffbc1;
 }
+
 .cop {
     color: #fffbc1;
 }
@@ -352,6 +389,7 @@ p {
 .copy {
     color: #fff;
 }
+
 .copy1 {
     color: #000;
     font-weight: 500;
