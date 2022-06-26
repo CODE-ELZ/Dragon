@@ -3,6 +3,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+:root{
+    --mainColor:#fffbc1;
+}
+
 h1 {
     font-size: 3.5rem;
     line-height: 1.5;
@@ -29,52 +33,71 @@ p {
 #title {
     background-image: url(images/bgro.png);
     background-size: cover;
-    color: #ee4545c7;
+    color: #fff;
     text-align: left;
 }
 
 /* ///////////////////////2-Ids/////////////////////// */
 #features {
     padding: 7% 15%;
-    background-color: #fffbc1;
+    background-color: var(--mainColor);
     position: relative;
     z-index: 1;
 }
 
 #allt {
-    background-color: #ff0000c7;
+    background-image: url(images/bgg5.jpg);
+    background-size: cover;
+}
+.shad{
+    background-color: rgba(0, 0, 0, 0.404);
 }
 
 /* ///////////////////////3&4-Ids/////////////////////// */
 #testimonials {
     text-align: center;
-    background-color: #fffbc1;
+    background-color: var(--mainColor);
     color: #000;
 }
 
 #press {
-    background-color: #ff0000c7;
+    background-image: url(images/bgro.png);
+    background-size: cover;
     text-align: center;
     padding: 3%;
+    box-shadow: 0px 0px 10px 0px #000;
+        -webkit-box-shadow: 0px 0px 10px 0px #000;
+        -moz-box-shadow: 0px 0px 10px 0px #000;
 }
 
 /* ///////////////////////5-Ids/////////////////////// */
 #pricing {
     padding: 100px;
     text-align: center;
-    background-color: #ff0000c7;
+    background-image: url(images/bgg5.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 10px 0px #000 inset;
+        -webkit-box-shadow: 0px 0px 10px 0px #000 inset;
+        -moz-box-shadow: 0px 0px 10px 0px #000 inset;
 }
 
 #cta {
     text-align: center;
-    background-color: #fffbc1;
+    background-color: var(--mainColor);
     padding: 3% 4% 0;
+    box-shadow: 0px 0px 10px 0px #000;
+        -webkit-box-shadow: 0px 0px 10px 0px #000;
+        -moz-box-shadow: 0px 0px 10px 0px #000;
 }
 
 #footer {
     text-align: center;
-    background-color: #ff0000c7;
+    background-image: url(images/bgro.png);
+    background-size: cover;
     padding: 30px 0 30px;
+    box-shadow: 0px 0px 10px 0px #000 inset;
+        -webkit-box-shadow: 0px 0px 10px 0px #000 inset;
+        -moz-box-shadow: 0px 0px 10px 0px #000 inset;
 }
 
 /* ///////////////////////1-Classes/////////////////////// */
@@ -99,6 +122,7 @@ p {
 .nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
+    color: #fff !important;
 }
 
 .bDownload {
@@ -109,10 +133,18 @@ p {
     text-decoration: none;
     color: #ee4545c7;
 }
+.bw {
+    text-decoration: none;
+    color: #fff;
+}
 
 .bDownload:hover .b {
     text-decoration: none;
     color: #fff;
+}
+.bDownload:hover .bw {
+    text-decoration: none;
+    color: #000;
 }
 
 .a {
@@ -154,7 +186,7 @@ p {
         border-radius: 10%;
         height: 100px;
         margin: 0 10px 10px;
-        background-color: #fffbc1;
+        background-color: var(--mainColor);
         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
         -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -201,7 +233,7 @@ p {
     border-radius: 10%;
     height: 200px;
     margin: 0 20px 10px;
-    background-color: #fffbc1;
+    background-color: var(--mainColor);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -219,7 +251,7 @@ p {
         border-radius: 10%;
         height: 100px;
         margin: 0 10px 10px;
-        background-color: #fffbc1;
+        background-color: var(--mainColor);
         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
         -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -255,7 +287,7 @@ p {
         border-radius: 10%;
         height: 100px;
         margin: 0 20px 20px;
-        background-color: #fffbc1;
+        background-color: var(--mainColor);
         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
         -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -289,7 +321,7 @@ p {
 }
 
 .bshadow p {
-    color: #fffbc1;
+    color: var(--mainColor);
     font-weight: 700;
 }
 
@@ -301,34 +333,33 @@ p {
 .bshadow {
     background-color: #000;
     align-items: center;
-    opacity: 0.5;
 }
 
 .bshadow:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    background-color: #fffbc1;
+    background-color: var(--mainColor);
     opacity: 1;
 }
 
 .bgc {
     background-color: #000;
-    color: #fffbc1;
+    color: var(--mainColor);
     text-align: justify;
 }
 
 .bshadow:hover .dom {
     background-color: #ff0000c7;
-    color: #fffbc1;
+    color: var(--mainColor);
 }
 
 .dob {
-    background-color: #fffbc1;
+    background-color: var(--mainColor);
     color: #000;
     text-align: center;
 }
 
 .dom {
-    background-color: #fffbc1;
+    background-color: var(--mainColor);
     color: #ff0000c7;
 }
 
@@ -344,7 +375,7 @@ p {
 
 @media (max-width: 1028px) {
     .bshadow p {
-        color: #fffbc1;
+        color: var(--mainColor);
         font-weight: 700;
     }
 
@@ -355,14 +386,14 @@ p {
 
     .bshadow {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-        background-color: #fffbc1;
+        background-color: var(--mainColor);
         opacity: 1;
         align-items: center;
     }
 
     .bshadow .dom {
         background-color: #ff0000c7;
-        color: #fffbc1;
+        color: var(--mainColor);
     }
 }
 
@@ -380,11 +411,11 @@ p {
 
 .gr {
     margin: 0 5px 10px;
-    color: #fffbc1;
+    color: #fff;
 }
 
 .cop {
-    color: #fffbc1;
+    color: var(--mainColor);
 }
 
 .copy {
@@ -392,7 +423,7 @@ p {
 }
 
 .copy1 {
-    color: #000;
+    color: var(--mainColor);
     font-weight: 500;
 }
 
